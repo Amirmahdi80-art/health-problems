@@ -67,14 +67,17 @@ p {
 }
 .bg-image{
   position: absolute;
-  background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?cs=srgb&dl=blue-and-silver-stetoscope-40568.jpg&fm=jpg);
+  background-image: url("images/blue-and-silver.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 450px;
+  
   opacity: 0.3;
   z-index: -1;
+}
+.background-img{
+  height: 450px;
 }
 /*header animation*/
 .header-title{
