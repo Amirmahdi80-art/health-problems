@@ -144,7 +144,7 @@ footer{
   100% {opacity: 1;}
 }
 /*media query*/
-@media (min-width: 768px) {
+@media (min-width: 1021px) {
   .grid{
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto,25em)) 1fr;
